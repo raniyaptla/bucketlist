@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,28 +7,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bucket-List</title>
     <link rel="stylesheet" href="style.css">
+    <script src="./app.js" defer></script>
 </head>
 <body>
+    
     <div class="container">
-        <h1 class="heading">My 2023 Bucket List</h1>
-        <div class="input-container">
-            <input type="text" class="input-field" id="input-field" placeholder=" I want to ...">
-            <input type="submit" class="btn-submit" onclick="addValues()" value="Add" />
-        </div>
-        <div class="list-container">
-            <h2>Here's what you gotta do this year</h2>
-            <div class="hint">
-                <p>The first thing on your bucket list is to tick things of your <br>
+    <h1 class="heading">My 2023 Bucket List</h1>
+    <div class="input-container">
+        <input type="text" class="input-field" id="input-field" placeholder="I want to ...">
+        <input type="submit" class="submit" onclick="addValues()" value="Add">
+    </div>
+    <div class="list-container">
+        <h2>Here's what you gotta do this year</h2>
+        <div class="hint">
+            <p>The first thing on your bucket list is to tick things of your <br>
                 bucket list. So, go ahead buddy 😜...</p>
-            </div>
-            
-            <ul id="list-container"></ul>
         </div>
-        <button class="btn-reset" onclick="reset()">Reset Bucket List</button><br>
+        <ul class="list-container"></ul>
     </div>
-    <div class="footer" >
-        Coded with 💛 by Raniya
-    </div>
-    <script src="./app.js"></script>
+    <button class="btn-reset" onclick="reset()">Reset Bucket List</button><br>
+</div>
+<div class="footer">
+    Coded with 💛 by Raniya
+</div>
+   
 </body>
 </html>
+
+
+
